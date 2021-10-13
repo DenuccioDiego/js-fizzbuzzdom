@@ -19,9 +19,23 @@ h1{
      height: 125px;
      width: 125px; 
      display: inline-block;
-     background-color: yellow;
 }
 
+.standard_color{
+     background-color: #1389b2;
+}
+
+.fizz_color{
+     background-color: #0bd6a1;
+}
+
+.buzz_color{
+     background-color: #ffd166;
+}
+
+.fizz_buzz_color{
+     background-color: #f0466f;
+}
 .container{
      display: flex;
      flex-wrap: wrap;  
