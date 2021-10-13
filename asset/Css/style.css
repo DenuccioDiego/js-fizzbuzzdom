@@ -6,17 +6,26 @@
 }
 
 body{
-     background-color: #083b4c;
-}
+     background-color: #083b4c;  }
+
+h1{
+     color: white;
+     text-align: center;
+     padding: 50px; }
 
 .box{
-     height: 30px;
-     width: 30px;
+     height: 70px;
+     width: 70px; 
+     display: inline-block;
+     background-color: yellow;
 }
 
 .container{
      display: flex;
-     flex-wrap: wrap;
+     flex-wrap: wrap;  
+     gap: 10px;
+     margin: 50px;
+     margin:auto;
 }
 
 
