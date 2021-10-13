@@ -8,7 +8,7 @@ for (let i = 1; i < 101; i++) {
 
      //In questa condizione il ciclo usera il contatore "i" per riempire le caselle quindi "i" sarà il contenuto del div 
      if (!((i % 3 == 0) || (i % 5  == 0))) { 
-          const boxColorato = `<div class="box standard_color">${i}</div>`;       //dichiarazione variabile con creazione div
+          const boxColorato = `<div class="box standard_color">${i}</div>`;       //dichiarazione variabile con creazione div 
           container_principale.insertAdjacentHTML('beforeend', boxColorato);      //immissione della variabile (dichiarata nella riga antecedente) nel contenitore principale   
      }
 
@@ -34,13 +34,4 @@ for (let i = 1; i < 101; i++) {
      }
 
 }
-
-
-
-
-
-
-
-
-
 
