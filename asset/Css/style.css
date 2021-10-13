@@ -11,11 +11,13 @@ body{
 h1{
      color: white;
      text-align: center;
-     padding: 50px; }
+     padding: 50px;
+     font-size: 7rem;
+}
 
 .box{
-     height: 70px;
-     width: 70px; 
+     height: 125px;
+     width: 125px; 
      display: inline-block;
      background-color: yellow;
 }
@@ -24,7 +26,7 @@ h1{
      display: flex;
      flex-wrap: wrap;  
      gap: 10px;
-     margin: 50px;
+     margin: 0 50px;
      margin:auto;
 }
 
